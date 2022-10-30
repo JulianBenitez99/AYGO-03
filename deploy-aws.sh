@@ -187,7 +187,7 @@ main() {
   run_website
 }
 
-while getopts "hk:s:d:" opt; do
+while getopts "hk:s:" opt; do
   case $opt in
   h)
     usage
@@ -198,9 +198,6 @@ while getopts "hk:s:d:" opt; do
     ;;
   s)
     SECURITY_GROUP="$OPTARG"
-    ;;
-  d)
-    DRY_RUN="$OPTARG"
     ;;
   \?)
     echo "Invalid option -$OPTARG" >&2
