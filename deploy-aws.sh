@@ -3,13 +3,6 @@
 # Enable debug mode
 # set -x
 
-# TODO:
-#  Build a script to automatically:
-#     Prepare the EC2 instances
-#     Deploy the application on the EC2 instances
-#     Run the application on the EC2 instances
-# Write the report of your experiment in the README of the github repository. Add screenshots and evidence of your results
-
 export LC_ALL=C
 green=$(tput setaf 2)
 normal="\033[0m"
